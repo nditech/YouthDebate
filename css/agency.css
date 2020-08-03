@@ -705,11 +705,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #fed136;
 }
 
-.masthead1 {
-  text-align: center;
-  background-image: url("../img/Banner.png");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  margin-bottom:5%;
+#shadowsharp {
+  border: 1px solid black ;
+  box-shadow: 5px 6px #E5CA66;
 }
