@@ -706,6 +706,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-attachment: scroll;
   background-position: center center; 
   height: 400px;
+  margin-bottom: 5%;
 }
 .structure {
   margin-top: 5%;
@@ -714,4 +715,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 #shadowsharp {
   border: 1px solid black ;
   box-shadow: 5px 6px #E5CA66;
+}
+
+#shadowsharp1 {
+  border: 1px solid black ;
+  box-shadow: 5px 6px #808080;
+  margin-bottom: 5%;
 }
