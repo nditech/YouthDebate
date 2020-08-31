@@ -581,7 +581,8 @@ header.masthead .intro-text .intro-heading {
   margin-top: 5%;
 }
 .about a {
-  color: #800080;
+  color: #3346FF ;
+  text-decoration: underline;
 }
 
 .team-member {
@@ -735,4 +736,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .modules {
   float: left;
   margin: 0px 5px 0px 5px;
+}
+
+.debate {
+  text-align: left;
+}
+
+.link {
+  color: #3346FF ;
+  text-decoration: underline;
 }
