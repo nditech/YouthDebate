@@ -712,6 +712,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-position: center center; 
   height: 400px;
   margin-bottom: 5%;
+  
 }
 .structure {
   margin-top: 5%;
@@ -787,4 +788,22 @@ header.masthead1 .intro-text .intro-heading {
     margin-bottom: 25px;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
+}
+
+.about-text {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.agenda-box {
+  height: 250px;
+  overflow: scroll;
+}
+
+@media only screen and (max-device-width: 425px) {
+  .agenda-box {
+  height: 390px;
+  }
+  
+  .agenda-nav {
+  margin: 15px auto;
 }
