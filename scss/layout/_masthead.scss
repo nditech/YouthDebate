@@ -6,7 +6,13 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  margin-bottom: 5%;
+  //margin-bottom: 5%;
+    background-image: url(../img/UpdatedBanner.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-color: #000;
+    height:650px;
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
@@ -26,10 +32,11 @@ header.masthead {
     }
   }
 }
+
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
-      padding-top: 300px;
+      padding-top: 150px;
       padding-bottom: 200px;
       .intro-lead-in {
         font-size: 40px;
@@ -39,7 +46,7 @@ header.masthead {
         @include serif-font;
       }
       .intro-heading {
-        font-size: 75px;
+        font-size: 70px;
         font-weight: 700;
         line-height: 75px;
         margin-bottom: 50px;
@@ -47,4 +54,36 @@ header.masthead {
       }
     }
   }
+}
+
+
+.masthead1 {
+  text-align: center;
+  background-image: url(../img/about/Debates_Jordan.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  height: 600px;
+  margin-bottom: 5%;
+}
+
+header.masthead1 .intro-text {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+header.masthead1 .intro-text .intro-heading {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-bottom: 25px;
+  font-family: montserrat,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+
+header.masthead1 .intro-text .intro-lead-in {
+  font-size: 20px;
+  font-style: italic;
+  line-height: 20px;
+  margin-bottom: 10px;
+  font-family: 'droid serif',-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
 }

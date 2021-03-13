@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v5.2.2 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2021 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
@@ -14,7 +14,7 @@ p {
 }
 
 a {
-  color: black;
+  color: #000;
 }
 
 a:hover {
@@ -56,7 +56,7 @@ h6 {
 
 @media (min-width: 768px) {
   section {
-    padding: 30px 0;
+    padding: 150px 0;
   }
 }
 
@@ -146,11 +146,11 @@ img::-moz-selection {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: rgba(0,0,0,0.5);
+    background-color: #212529;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -172,11 +172,17 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  background-image: url("../img/UpdatedBanner.png");
+  color: white;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-color: black;
+  background-size: cover;
+  background-image: url(../img/UpdatedBanner.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-color: #000;
+  height: 650px;
 }
 
 header.masthead .intro-text {
@@ -202,7 +208,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 150px;
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
@@ -213,7 +219,7 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 75px;
+    font-size: 70px;
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
@@ -221,20 +227,99 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.masthead1 {
+  text-align: center;
+  background-image: url(../img/about/Debates_Jordan.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  height: 600px;
+  margin-bottom: 5%;
+}
+
+header.masthead1 .intro-text {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+header.masthead1 .intro-text .intro-heading {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-bottom: 25px;
+  font-family: montserrat,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+
+header.masthead1 .intro-text .intro-lead-in {
+  font-size: 20px;
+  font-style: italic;
+  line-height: 20px;
+  margin-bottom: 10px;
+  font-family: 'droid serif',-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
 }
 
-#modal1 {
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  height: 20px;
-  margin-top: -12px;
+.portfolio-hover.icon {
   text-align: center;
-  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.portfolio-caption h4 {
+  text-align: center;
+}
+
+.portfolio-item {
+  background-color: #F6F7F8;
+  margin: 2px;
+  flex: 0 0 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .portfolio-item {
+    margin: 3px;
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
+}
+
+@media (min-width: 991px) {
+  .portfolio-item {
+    flex: 0 0 24%;
+    margin: 3px;
+  }
+}
+
+.portfolio-caption {
+  margin-top: auto;
+}
+
+.about-section {
+  background: #353535;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.about-section .intro-lead-in {
+  font-size: 20px;
+  font-style: italic;
+  line-height: 20px;
+  margin-bottom: 10px;
+  font-family: 'droid serif',-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+
+.about-section .intro-heading {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-bottom: 25px;
+  font-family: montserrat,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
 }
 
 #portfolio .portfolio-item {
@@ -572,18 +657,6 @@ header.masthead .intro-text .intro-heading {
     padding: 0 100px 20px 20px;
   }
 }
-.about {
-  font-size: 90%;
-  font-weight: 400;
-  padding: 0.75em 0;
-  letter-spacing: 1px;
-  font-family: 'Roboto Slab';
-  margin-top: 5%;
-}
-.about a {
-  color: #3346FF ;
-  text-decoration: underline;
-}
 
 .team-member {
   margin-bottom: 50px;
@@ -666,6 +739,8 @@ section#contact :-ms-input-placeholder {
 .footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #6c757d;
+  color: #fff;
 }
 
 .footer span.copyright {
@@ -681,6 +756,10 @@ section#contact :-ms-input-placeholder {
   margin-bottom: 0;
   text-transform: none;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.footer ul.quicklinks a {
+  color: #fff;
 }
 
 ul.social-buttons {
@@ -702,109 +781,4 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
-}
-
-.masthead1{
-  text-align: center;
-  background-image: url("../img/about/Debates_Jordan.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center; 
-  height: 400px;
-  margin-bottom: 5%;
-  
-}
-.structure {
-  margin-top: 5%;
-  
-}
-#shadowsharp {
-  border: 1px solid black ;
-  box-shadow: 5px 6px #E5CA66;
-}
-
-#shadowsharp1 {
-  border: 1px solid black ;
-  box-shadow: 5px 6px #808080;
-  margin-bottom: 5%;
-}
-
-.icon {
-  padding-bottom: 10px;
-  margin-left: 15px;
-}
-
-.modules {
-  float: left;
-  margin: 0px 5px 0px 5px;
-}
-
-.debate {
-  text-align: left;
-}
-
-.link {
-  color: #3346FF ;
-  text-decoration: underline;
-}
-
-header.masthead1 .intro-text {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-header.masthead1 .intro-text .intro-lead-in {
-  font-size: 20px;
-  font-style: italic;
-  line-height: 20px;
-  margin-bottom: 25px;
-  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-header.masthead1 .intro-text .intro-heading {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 20px;
-  margin-bottom: 25px;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-@media (min-width: 768px) {
-  header.masthead1 .intro-text {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-  header.masthead1 .intro-text .intro-lead-in {
-    font-size: 20px;
-    font-style: italic;
-    line-height: 20px;
-    margin-bottom: 10px;
-    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  }
-  header.masthead1 .intro-text .intro-heading {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 25px;
-    margin-bottom: 25px;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  }
-}
-
-.about-text {
-  background-color: rgba(0,0,0,0.5);
-}
-
-.agenda-box {
-  height: 250px;
-  overflow: scroll;
-}
-
-@media only screen and (max-device-width: 425px) {
-  .agenda-box {
-  height: 390px;
-  }
-  
-  .agenda-nav {
-  margin: 15px auto;
- }
 }
