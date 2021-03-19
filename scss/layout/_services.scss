@@ -3,3 +3,53 @@
   margin: 15px 0;
   text-transform: none;
 }
+.portfolio-hover.icon {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.portfolio-caption h4 {
+  text-align: center;
+}
+.portfolio-bg {
+  background-color: #F6F7F8;
+
+  .portfolio-caption h4 {
+    text-align: center;
+    //height: 70px;
+    font-size:1.3em;
+  }
+
+  .text-muted {
+    color: #6c757d!important;
+    //margin-top: 30px;
+}
+
+  @media(min-width:768px) and (max-width:991px) {
+    .portfolio-caption h4 {
+      text-align: center;
+      height: 70px;
+      font-size:1.3em;
+    }
+  
+   
+  }
+
+  @media(min-width:991px) {
+    .portfolio-caption h4 {
+      text-align: center;
+      height: 70px;
+      font-size:1.3em;
+      margin-top: 10px;
+    }
+  
+    .text-muted {
+      color: #6c757d!important;
+      //margin-top: 30px;
+  }
+  }
+}
+
+.portfolio-caption {
+  margin-top: auto;
+}

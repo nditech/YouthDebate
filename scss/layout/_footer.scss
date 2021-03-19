@@ -2,6 +2,8 @@
 .footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #000;
+  color: #fff;
   span.copyright {
     font-size: 90%;
     line-height: 40px;
@@ -14,6 +16,9 @@
     margin-bottom: 0;
     text-transform: none;
     @include heading-font;
+    a {
+    color:#fff;
+    }
   }
 }
 
