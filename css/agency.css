@@ -274,6 +274,10 @@ header.masthead1 .intro-text .intro-lead-in {
   text-align: center;
 }
 
+.tiles {
+  justify-content: center;
+}
+
 .portfolio-bg {
   background-color: #F6F7F8;
 }
@@ -771,6 +775,10 @@ section#contact :-ms-input-placeholder {
 
 .footer ul.quicklinks a {
   color: #fff;
+}
+
+.footer .img-fluid {
+  width: 50%;
 }
 
 ul.social-buttons {
