@@ -811,15 +811,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  /*background-color: red; /* Set a background color */
-  /*color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 50%; /* Rounded corners */
 }
 
 #doubleup {
-  height: 25px;
+  height: 25px;  /* Resizes double arrow picture*/
   width: auto;
 }
 
@@ -828,5 +826,37 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 #Jordan, #Guatemala, #Lebanon, #Libya, #Zambia, #Armenia, #Moldova  {
-  scroll-margin-top: 75px;
+  scroll-margin-top: 75px; /* Adjusts display, on jump links*/
+}
+
+.special-container {
+  position: relative;
+}
+
+.intro-text {
+  border: 3px solid white;
+}
+
+.vertical-center {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%, -50%);
+  width: 100%;
+}
+
+.vertical-center h1 {
+  font-size: 4.5rem !important;
+}
+
+.agenda-box {
+  position: relative;
+}
+
+.country-titles {
+  position: sticky;
+  top: 55px;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  background-color: white;
 }
