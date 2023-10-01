@@ -852,11 +852,15 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   position: relative;
 }
 
-.country-titles {
+.country-titles { /* for examples.html */
   position: sticky;
   top: 55px;
   width: 100%;
   height: 40px;
   margin-top: 10px;
   background-color: white;
+}
+
+.timeline-subhead {
+  font-size: 1.2rem;
 }
