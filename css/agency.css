@@ -833,10 +833,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   position: relative;
 }
 
-.intro-text {
-  border: 3px solid white;
-}
-
 .vertical-center {
   position: absolute;
   top: 45%;
@@ -874,22 +870,16 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   margin-top: 12px;
 }
 
-.flex-parent {
-  position: absolute;
-  justify-content: center;
-}
-
-#big-grey-box .flex-parent {
-  bottom: 10px;
-}
-
-.jc-center {
-  justify-content: center;
-}
-
 .row-tiles .btn-grusk {
   font-size: 0.8rem !important;
-  color: black !important;
   text-align: center;
 }
+
+.btn-pad {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+
+
 
