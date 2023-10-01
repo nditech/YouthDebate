@@ -864,3 +864,32 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .timeline-subhead {
   font-size: 1.2rem;
 }
+
+.portfolio-caption > .bold-chapter {
+  text-align: center;
+  font-size
+}
+
+.portfolio-caption .text-muted {
+  margin-top: 12px;
+}
+
+.flex-parent {
+  position: absolute;
+  justify-content: center;
+}
+
+#big-grey-box .flex-parent {
+  bottom: 10px;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.row-tiles .btn-grusk {
+  font-size: 0.8rem !important;
+  color: black !important;
+  text-align: center;
+}
+
