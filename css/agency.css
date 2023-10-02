@@ -888,5 +888,39 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   text-align: center;
 }
 
+@media (max-width: 450px) {
+  #debate-pol-particip {
+    order: 1;
+  }
+  
+  #debate-pol-particip-btn {
+    order: 2;
+    border-bottom: 0.5px rgb(129, 133, 137) solid;
+  }
+
+  #design-youth-debate-prog {
+    order: 3;
+  }
+
+  #design-youth-debate-prog-btn {
+    order: 4;
+  }
+
+  #program-examples {
+    order: 5;
+  }
+
+  #program-examples-btn {
+    order: 6;
+  }
+
+  #resources-link {
+    order: 7;
+  }
+
+  #resources-link-btn {
+    order: 8;
+  }
+}
 
 
