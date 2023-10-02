@@ -875,11 +875,18 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   text-align: center;
 }
 
+.btn-grusk a {
+  color: white;
+}
+
+.btn-grusk a:hover, .iconPic:hover {
+  color: rgb(33, 37, 41);
+}
+
 .btn-pad {
   padding-bottom: 10px;
   text-align: center;
 }
-
 
 
 
