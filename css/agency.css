@@ -863,7 +863,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .portfolio-caption > .bold-chapter {
   text-align: center;
-  font-size
 }
 
 .portfolio-caption .text-muted {
@@ -888,14 +887,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   text-align: center;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 450px){
   #debate-pol-particip {
     order: 1;
   }
   
   #debate-pol-particip-btn {
     order: 2;
-    border-bottom: 0.5px rgb(129, 133, 137) solid;
   }
 
   #design-youth-debate-prog {
@@ -920,6 +918,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
   #resources-link-btn {
     order: 8;
+  }
+}
+
+@media (min-width: 450px) {
+  .btn-hr {
+    display: none;
+    width: 40%;
   }
 }
 
