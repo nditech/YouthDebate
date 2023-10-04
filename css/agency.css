@@ -920,3 +920,43 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   }
 }
 
+.portfolio-caption {
+    height: 510px;
+}
+
+.portfolio-caption button {
+    bottom: 15px;
+    position: absolute;
+    left: 25%;
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio-caption {
+    height: 550px;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio-caption {
+    height: 380px;
+    }
+    .portfolio-caption button {
+    left: 40%;
+}
+    
+}
+
+@media screen and (max-width: 425px) {
+  .portfolio-caption {
+    height: 380px;
+    }
+    .portfolio-caption button {
+    left: 35%;
+}
+    
+}
+
+.portfolio-bg {
+    border: 5px solid white !important;
+}
+
