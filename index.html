@@ -34,13 +34,15 @@
 
 </head>
 
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img id="doubleup" src="img\double-up-arrow-01.svg"></button>
+
 <body id="page-top">
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="index.html">YLD</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" id="menu-navbar">
         Menu
         <i class="fas fa-bars"></i>
       </button>
@@ -69,81 +71,184 @@
       <div class="intro-text">
         <div class="intro-lead-in text-white">Youth Leading Debate</div>
         <div class="intro-heading text-uppercase text-white">Developing Political skills through the art of debate</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="about.html">Tell Me More</a>
+        <a class="btn iconPic btn-primary btn-xl text-uppercase js-scroll-trigger" href="about.html">Tell Me More</a>
       </div>
     </div>
   </header>
 
   <!-- Services -->
+
   <section class="page-section" id="services">
-    <div class="container">
+    <div class="container ">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Chapters</h2>
-          <h3 class="section-subheading text-muted"></h3>
+
         </div>
       </div>
-      <div class="row tiles">
-          <div class="col-md-3 col-sm-6 ">
+      
+      <!-- <div class="row tiles" id="big-grey-box">
+          <div class="col-md-3 col-sm-6 portfolio-bg grey-parent" id="debate-pol-particip">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
               <div class="portfolio-hover icon">
                 <div class="portfolio-hover-content fa-stack fa-4x">
                   <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fas fa-check-square fa-stack-1x fa-inverse"></i>
+                  <i class="fas iconPic fa-check-square fa-stack-1x fa-inverse"></i>
                 </div>
               </div>
             </a>
             <div class="portfolio-caption">
-              <h4>Debate and Political Participation</h4>
-              <p class="text-muted">Describes how competitive debate supports youth political participation and the development of relevant skills.
-              </p>
+              <div class="bold-chapter"><h4>Debate and Political Participation</h4></div>
+              <div class="chapter-desrip"><p class="text-muted">Describes how competitive debate supports youth political participation and the development of relevant skills.
+              </p></div>
             </div>
-          </div>   
-          <div class="col-md-3 col-sm-6 portfolio-bg">
+            <div class="portfolio-bg btn-pad" id="debate-pol-particip-btn">
+              <button class="btn btn-primary text-uppercase btn-grusk"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">Read more A</a></button>
+              <hr class="btn-hr">
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 portfolio-bg grey-parent" id="design-youth-debate-prog">
             <a href="structure.html">
               <div class="portfolio-hover icon">
                 <div class="portfolio-hover-content fa-stack fa-4x">
                   <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fas fa-balance-scale fa-stack-1x fa-inverse"></i>
+                  <i class="fas iconPic fa-balance-scale fa-stack-1x fa-inverse"></i>
                 </div>
               </div>
             </a>
             <div class="portfolio-caption">
-              <h4 class="text-black text-decoration-underline">Designing a Youth Debate Program</h4>
-              <p class="text-muted">Includes guidance for creating and implementing a youth debate program using the YLD model.</p>
-              <button class="btn btn-primary btn-md text-uppercase"><a href="structure.html" style="color:#fff;">Read More</a></button>
+              <div class="bold-chapter"><h4>Designing a Youth Debate Program</h4></div>
+              <div class="chapter-desrip"><p class="text-muted">Includes guidance for creating and implementing a youth debate program using the YLD model.
+              </p></div>
+            </div>
+            <div class="portfolio-bg btn-pad" id="design-youth-debate-prog-btn">
+              <button class="btn btn-primary text-uppercase btn-grusk"><a href="structure.html">Read more b</a></button>
+              <hr class="btn-hr">
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 ">
+
+          <div class="col-md-3 col-sm-6 portfolio-bg grey-parent" id="program-examples">
             <a  href="#examples">
               <div class="portfolio-hover icon">
                 <div class="portfolio-hover-content fa-stack fa-4x">
                   <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fas fa-check-square fa-stack-1x fa-inverse"></i>
+                  <i class="fas iconPic fa-check-square fa-stack-1x fa-inverse"></i>
                 </div>
               </div>
             </a>
             <div class="portfolio-caption">
-              <h4>Program Examples</h4>
-              <p class="text-muted">Each country example describes unique features for youth debate programs considering the context, country, and program budget.
-              </p>
+              <div class="bold-chapter"><h4>Program Examples</h4></div>
+              <div class="chapter-desrip"><p class="text-muted">Each country example describes unique features for youth debate programs considering the context, country, and program budget.
+              </p></div>
             </div>
-        </div>
-        <div class="col-md-3 col-sm-6 portfolio-bg">
-          <a href="#portfolio">
-            <div class="portfolio-hover icon">
-              <div class="portfolio-hover-content fa-stack fa-4x">
-                <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                <i class="fas fa-check-square fa-stack-1x fa-inverse"></i>
+            <div class="portfolio-bg btn-pad" id="program-examples-btn">
+              <button class="btn btn-primary text-uppercase btn-grusk"><a href="#examples">Read more C</a></button>
+              <hr class="btn-hr">
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 portfolio-bg grey-parent" id="resources-link">
+            <a href="#portfolio">
+              <div class="portfolio-hover icon">
+                <div class="portfolio-hover-content fa-stack fa-4x">
+                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fas iconPic fa-check-square fa-stack-1x fa-inverse"></i>
+                </div>
               </div>
+            </a>
+            <div class="portfolio-caption">
+              <div class="bold-chapter"><h4>Resources</h4></div>
+              <div class="chapter-desrip"><p class="text-muted">This section contains program resources, including NDI’s Debate Program Manual, NDI’s Debate Instruction Manual, NDI’s Tournament Manual, and sample materials.</p></div>
             </div>
-          </a>
+            <div class="portfolio-bg btn-pad" id="resources-link-btn">
+              <button class="btn btn-primary text-uppercase btn-grusk"><a href="#portfolio">Read more D</a></button>
+            </div>
+          </div>
+      </div> -->
+
+<!-- ********** Read More buttons separated **********-->
+      <div class="row tiles">
+        <div class="col-md-3 col-sm-6 portfolio-bg">
           <div class="portfolio-caption">
-            <h4>Resources</h4>
-            <p class="text-muted">This section contains program resources, including NDI’s Debate Program Manual, NDI’s Debate Instruction Manual, NDI’s Tournament Manual, and sample materials.</p>
+            <a href="structure.html">
+              <div class="portfolio-hover icon">
+                <div class="portfolio-hover-content fa-stack fa-4x">
+                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fas iconPic fa-balance-scale fa-stack-1x fa-inverse"></i>
+                </div>
+              </div>
+            </a>
+              <div class="bold-chapter"><h4>Debate and Political Participation</h4></div>
+              <div class="chapter-desrip"><p class="text-muted">Describes how competitive debate supports youth political participation and the development of relevant skills.
+              </p></div>
+          </div>
         </div>
+
+        <div class="col-md-3 col-sm-6 portfolio-bg">
+          <div class="portfolio-caption">
+            <a href="structure.html">
+              <div class="portfolio-hover icon">
+                <div class="portfolio-hover-content fa-stack fa-4x">
+                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fas iconPic fa-balance-scale fa-stack-1x fa-inverse"></i>
+                </div>
+              </div>
+            </a>
+            <div class="bold-chapter"><h4>Designing a Youth Debate Program</h4></div>
+            <div class="chapter-desrip"><p class="text-muted">Includes guidance for creating and implementing a youth debate program using the YLD model.
+            </p></div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 portfolio-bg">
+          <div class="portfolio-caption">
+            <a  href="#examples">
+              <div class="portfolio-hover icon">
+                <div class="portfolio-hover-content fa-stack fa-4x">
+                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fas iconPic fa-check-square fa-stack-1x fa-inverse"></i>
+                </div>
+              </div>
+            </a>
+            <div class="bold-chapter"><h4>Program Examples</h4></div>
+            <div class="chapter-desrip"><p class="text-muted">Each country example describes unique features for youth debate programs considering the context, country, and program budget.
+            </p></div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 portfolio-bg">
+          <div class="portfolio-caption">
+            <a href="#portfolio">
+              <div class="portfolio-hover icon">
+                <div class="portfolio-hover-content fa-stack fa-4x">
+                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fas iconPic fa-check-square fa-stack-1x fa-inverse"></i>
+                </div>
+              </div>
+            </a>
+            <div class="bold-chapter"><h4>Resources</h4></div>
+            <div class="chapter-desrip"><p class="text-muted">This section contains program resources, including NDI’s Debate Program Manual, NDI’s Debate Instruction Manual, NDI’s Tournament Manual, and sample materials.</p></div>
+          </div>
         </div>
       </div>
+      
+      <div class="row tiles">
+        <div class="col-md-3 col-sm-6 portfolio-bg btn-pad" id="debate-pol-particip-btn">
+          <button class="btn btn-primary text-uppercase btn-grusk"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">Read more</a></button>
+        </div>
+        <div class="col-md-3 col-sm-6 portfolio-bg btn-pad" id="design-youth-debate-prog-btn">
+          <button class="btn btn-primary text-uppercase btn-grusk"><a href="structure.html">Read more</a></button>
+        </div>
+        <div class="col-md-3 col-sm-6 portfolio-bg btn-pad" id="program-examples-btn">
+          <button class="btn btn-primary text-uppercase btn-grusk"><a href="#examples">Read more</a></button>
+        </div>
+        <div class="col-md-3 col-sm-6 portfolio-bg btn-pad" id="resources-link-btn">
+          <button class="btn btn-primary text-uppercase btn-grusk"><a href="#portfolio">Read more</a></button>
+        </div>
+      </div>
+        
+ 
   </div>
   </section>
 
@@ -154,7 +259,7 @@
       <div class="intro-text">
       <div class="intro-lead-in text-white about-text">"In a sense, we can say that debate is a path that will lead us to a more tolerant society...being a tolerant society that accepts differences, we will surely become a creative, logical, critical and constructive society that recognizes it is our differences that become a motor to generate ideas.” - Otto Barrientos, Quetzaltenango</div>
       <div class="intro-heading text-white">To read more about the importance of youth debate, visit <br>“11 Reasons why youth debates are crucial to a democracy”</div>
-      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://drive.google.com/file/d/1VPjTp34X63vaypOAsficEVmwioN42pzS/view?usp=sharing" target="_blank">Read More</a>
+      <a class="btn iconPic btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://drive.google.com/file/d/1VPjTp34X63vaypOAsficEVmwioN42pzS/view?usp=sharing" target="_blank">Read More</a>
       </div>
       </div>
       
@@ -175,11 +280,11 @@
           <ul class="timeline">
             <li>
               <div class="timeline-image">
-                <a href="examples.html"><img class="rounded-circle img-fluid" src="img/about/ZambiaDebates.jpg" alt="Zambia debates"></a>
+                <a href="examples.html#Zambia"><img class="rounded-circle img-fluid" src="img/about/ZambiaDebates.jpg" alt="Zambia debates"></a>
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="subheading">Zambia: #YouthDebateZambia</h4>
+                  <h4 class="subheading">Zambia:<br><span class="timeline-subhead">#YouthDebateZambia</span></h4>
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">In collaboration with the <a href="https://www.cylazambia.org/" target="_blank"> Centre for Young Leaders in Africa</a> (CYLA) and <a href="https://youth4parliament.com" target="_blank">Youth4Parliament</a>, NDI gathered young people from political parties and civil society organizations to develop their debate skills and generate discussion on critical issues in Zambia.</p>
@@ -188,11 +293,11 @@
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <a href="examples.html"><img class="rounded-circle img-fluid" src="img/about/Lebanon1.jpg" alt="Lebanon debates program"></a>
+                <a href="examples.html#Lebanon"><img class="rounded-circle img-fluid" src="img/about/Lebanon1.jpg" alt="Lebanon debates program"></a>
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="subheading">Lebanon: Sar el Wa2et (It’s About Time)</h4>
+                  <h4 class="subheading">Lebanon: <br><span class="timeline-subhead">Sar el Wa2et (It’s About Time)</span></h4>
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">In collaboration with a recurring primetime television program hosted by famed political talk show personality Marcel Ghanem, called “Sar el Waqet” (“It’s About Time”), NDI-trained students debate draft laws and discuss them with elected officials.</p>
@@ -201,11 +306,11 @@
             </li> 
             <li>
               <div class="timeline-image">
-                <a href="examples.html"><img class="rounded-circle img-fluid" src="img/about/Guatemala.jpg" alt="Guatemala Debates"></a>
+                <a href="examples.html#Guatemala"><img class="rounded-circle img-fluid" src="img/about/Guatemala.jpg" alt="Guatemala Debates"></a>
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="subheading"><a class="portfolio-link" href="guatemala.html">Guatemala: Jóvenes Liderando Debates (Young People Leading Debate)</a></h4>
+                  <h4 class="subheading"><a class="portfolio-link">Guatemala: <br><span class="timeline-subhead">Jóvenes Liderando Debates (Young People Leading Debate)</span></a></h4>
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted"> Jóvenes Liderando Debates is a nine-month program to help politically active young people learn the art of competitive policy debate. The program consisted of policy dialogues, debate training and regional and national debate competitions.</p>
@@ -214,11 +319,11 @@
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <a href="examples.html"><img class="rounded-circle img-fluid" src="img/about/Moldova.jpg" alt="Moldova debates"></a>
+                <a href="examples.html#Moldova"><img class="rounded-circle img-fluid" src="img/about/Moldova.jpg" alt="Moldova debates"></a>
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="subheading">Moldova: Challenger</h4>
+                  <h4 class="subheading">Moldova: <br><span class="timeline-subhead">Challenger</span></h4>
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">Challenger is a one-year program that offers intensive training and practical exercises to a select group of young professionals. During the program, participants attend a policy debate school, playing the role of “government” and “opposition”.</p>
@@ -227,11 +332,11 @@
             </li>
             <li>
               <div class="timeline-image">
-                <a href="examples.html"><img class="rounded-circle img-fluid" src="img/about/JordanGroup.jpg" alt="Moldova debates"></a>
+                <a href="examples.html#Jordan"><img class="rounded-circle img-fluid" src="img/about/JordanGroup.jpg" alt="Jordan Celebrations"></a>
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="subheading">Jordan: Ana Usharek (I Participate)</h4>
+                  <h4 class="subheading">Jordan: <br><span class="timeline-subhead">Ana Usharek (I Participate)</span></h4>
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">In Jordan, NDI is partnering with Universities to help young people use democratic methods and community action to become invested in their nation’s future. Through debates, students openly discuss democratic practices and current events.
@@ -241,14 +346,28 @@
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <a href="examples.html"><img class="rounded-circle img-fluid" src="img/about/LibyaHSP.jpg" alt="Libya High school Program"></a>
+                <a href="examples.html#Libya"><img class="rounded-circle img-fluid" src="img/about/LibyaHSP.jpg" alt="Libya High school Program"></a>
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="subheading">Libya: High School Debates Program</h4>
+                  <h4 class="subheading">Libya: <br><span class="timeline-subhead">High School Debates Program</span></h4>
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">In Libya, NDI is partnering with the Dialogue and Debate Association (DDA) to implement a high school debate program. DDA’s debate programs, conducted in cooperation with the Ministry of Education, aid students in developing vital skills with the goal of making changes in their communities</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <a href="examples.html#Armenia"><img class="rounded-circle img-fluid" src="img/about/JordanGroup.jpg" alt="Armenian Pic"></a>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="subheading">Armenia: <br><span class="timeline-subhead">[armSubhead] text</span></h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">[armParagraph] text
+                  </p>
                 </div>
               </div>
             </li>
@@ -268,6 +387,7 @@
         </div>
       </div>
       <div class="row">
+
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
             <div class="portfolio-hover">
@@ -281,6 +401,7 @@
             <h4>Program Manuals</h4>
           </div>
         </div>
+
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
             <div class="portfolio-hover">
@@ -292,9 +413,9 @@
           </a>
           <div class="portfolio-caption">
             <h4>Program Materials</h4>
-            <p class="text-muted"></p>
           </div>
         </div>
+
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
             <div class="portfolio-hover">
@@ -308,6 +429,7 @@
             <h4> Youth Debate Videos</h4>
           </div>
         </div>
+
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
             <div class="portfolio-hover">

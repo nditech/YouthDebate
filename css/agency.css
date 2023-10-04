@@ -282,6 +282,14 @@ header.masthead1 .intro-text .intro-lead-in {
   background-color: #F6F7F8;
 }
 
+/* Chapters CSS */
+
+div.btn-pad {
+  padding-bottom: 10px;
+  text-align: center;
+  /* align-items: flex-end; */
+}
+
 .portfolio-bg .portfolio-caption h4 {
   text-align: center;
   font-size: 1.3em;
@@ -290,6 +298,7 @@ header.masthead1 .intro-text .intro-lead-in {
 .portfolio-bg .text-muted {
   color: #6c757d !important;
 }
+
 
 @media (min-width: 768px) and (max-width: 991px) {
   .portfolio-bg .portfolio-caption h4 {
@@ -801,3 +810,113 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+
+/* Top of page button */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 15px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 50%; /* Rounded corners */
+}
+
+#doubleup {
+  height: 25px;  /* Resizes double arrow picture*/
+  width: auto;
+}
+
+#myBtn:hover {
+  background-color: #e0e0e0; /* Add a dark-grey background on hover */
+}
+
+#Jordan, #Guatemala, #Lebanon, #Libya, #Zambia, #Armenia, #Moldova  {
+  scroll-margin-top: 75px; /* Adjusts display, on jump links*/
+}
+
+
+#top-of-program-examples {
+  padding-top: 0px;
+}
+
+#v-pills-tab {
+  font-family: sans-serif
+}
+
+.country-titles { /* for examples.html */
+  position: sticky;
+  top: 55px;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.timeline-subhead {
+  font-size: 1.2rem;
+}
+
+.portfolio-caption > .bold-chapter {
+  text-align: center;
+}
+
+.portfolio-caption .text-muted {
+  margin-top: 12px;
+}
+
+.row-tiles .btn-grusk {
+  font-size: 0.5rem !important;
+  text-align: center;
+}
+
+.btn-grusk a {
+  color: white;
+}
+
+.btn-grusk a:hover, .iconPic:hover, #menu-navbar:hover {
+  color: rgb(33, 37, 41);
+}
+
+@media (max-width: 550px){
+
+  #debate-pol-particip {
+    order: 1;
+  }
+  
+  #debate-pol-particip-btn {
+    order: 2;
+    display: none;
+  }
+
+  #design-youth-debate-prog {
+    order: 3;
+  }
+
+  #design-youth-debate-prog-btn {
+    order: 4;
+    display: none;
+  }
+
+  #program-examples {
+    order: 5;
+  }
+
+  #program-examples-btn {
+    order: 6;
+    display: none;
+  }
+
+  #resources-link {
+    order: 7;
+  }
+
+  #resources-link-btn {
+    order: 8;
+    display: none;
+  }
+}
+
