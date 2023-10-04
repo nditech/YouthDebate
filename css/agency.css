@@ -282,6 +282,14 @@ header.masthead1 .intro-text .intro-lead-in {
   background-color: #F6F7F8;
 }
 
+/* Chapters CSS */
+
+div.btn-pad {
+  padding-bottom: 10px;
+  text-align: center;
+  /* align-items: flex-end; */
+}
+
 .portfolio-bg .portfolio-caption h4 {
   text-align: center;
   font-size: 1.3em;
@@ -290,6 +298,7 @@ header.masthead1 .intro-text .intro-lead-in {
 .portfolio-bg .text-muted {
   color: #6c757d !important;
 }
+
 
 @media (min-width: 768px) and (max-width: 991px) {
   .portfolio-bg .portfolio-caption h4 {
@@ -829,23 +838,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   scroll-margin-top: 75px; /* Adjusts display, on jump links*/
 }
 
-.special-container {
-  position: relative;
+
+#top-of-program-examples {
+  padding-top: 0px;
 }
 
-.vertical-center {
-  position: absolute;
-  top: 45%;
-  transform: translateY(-50%, -50%);
-  width: 100%;
-}
-
-.vertical-center h1 {
-  font-size: 4.5rem !important;
-}
-
-.agenda-box {
-  position: relative;
+#v-pills-tab {
+  font-family: sans-serif
 }
 
 .country-titles { /* for examples.html */
@@ -870,7 +869,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .row-tiles .btn-grusk {
-  font-size: 0.8rem !important;
+  font-size: 0.5rem !important;
   text-align: center;
 }
 
@@ -878,22 +877,19 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   color: white;
 }
 
-.btn-grusk a:hover, .iconPic:hover {
+.btn-grusk a:hover, .iconPic:hover, #menu-navbar:hover {
   color: rgb(33, 37, 41);
 }
 
-.btn-pad {
-  padding-bottom: 10px;
-  text-align: center;
-}
+@media (max-width: 550px){
 
-@media (max-width: 450px){
   #debate-pol-particip {
     order: 1;
   }
   
   #debate-pol-particip-btn {
     order: 2;
+    display: none;
   }
 
   #design-youth-debate-prog {
@@ -902,6 +898,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
   #design-youth-debate-prog-btn {
     order: 4;
+    display: none;
   }
 
   #program-examples {
@@ -910,6 +907,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
   #program-examples-btn {
     order: 6;
+    display: none;
   }
 
   #resources-link {
@@ -918,14 +916,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
   #resources-link-btn {
     order: 8;
-  }
-}
-
-@media (min-width: 450px) {
-  .btn-hr {
     display: none;
-    width: 40%;
   }
 }
-
 
