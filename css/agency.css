@@ -960,3 +960,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     border: 5px solid white !important;
 }
 
+img.NDI-pic {
+  height: 100%;
+  width: 250px;
+  object-fit: cover;
+}
+
