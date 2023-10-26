@@ -398,11 +398,14 @@ div.btn-pad {
   padding: 25px;
   text-align: center;
   background-color: #fff;
+  height: 90px;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
-  margin: 0;
+  margin-top: auto;
+  margin-bottom: auto;
   text-transform: none;
+  position:relative;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
